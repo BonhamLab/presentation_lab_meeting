@@ -1,6 +1,6 @@
 # 2026-06 Lesser lab meeting
 
-![Title slide](assets/title-slide.png)
+[![](https://github.com/BonhamLab/presentation_lab_meeting/releases/latest/download/title.png)](https://github.com/BonhamLab/presentation_lab_meeting/releases/latest/download/presentation.pdf)
 
 - Kevin background
 - Brains and Bugs
