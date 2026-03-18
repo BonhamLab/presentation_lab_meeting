@@ -46,6 +46,137 @@
   - _B. infantis_ salt response
 ]
 
+#slide[
+  #set text(24pt)
+  - *Background on Kevin*
+  - Early life microbiome is associated with brain development
+  - _B. infantis_ salt response
+]
+
+== At the bench - Biochemistry and cell-biology of the immune system
+
+#slide[
+  #set text(18pt)
+    #figure(
+    cetz-canvas({
+    import cetz.draw: *
+    content((0, 0),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/career_experimental/prmt-fig2b.png", width: 250pt)
+      )]
+    )
+    content((0,3.2), [2006-2008])
+    content((0,-5.4), text(14pt, [@bonham2010effects]))
+    (pause,)
+    content((1, -1.5),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/career_experimental/prmt-fig5b.png", width: 250pt)
+      )]
+    )
+    (pause,)
+
+    content((10,3.5), [2008-2014 (PhD)])
+    content((10,-6.6), text(14pt, [@brubaker2015innate]))
+    content((10, -1.5),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/career_experimental/tlr-review-fig2.gif", width: 180pt)
+      )]
+    )
+    (pause,)
+    content((16,-6.6), text(14pt, [@bonham2014promiscuous]))
+    content((14, 0.5),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/career_experimental/cell-fig3e.png",width:300pt)
+      )]
+    )
+    (pause,)
+    content((15, -3.5),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/career_experimental/cell-fig4b.png",width:400pt)
+      )]
+    )
+  }))
+]
+
+
+== Transition to computing - Cheese HGT
+
+#slide[
+  #set text(18pt)
+    #figure(
+    cetz-canvas({
+    import cetz.draw: *
+    content((0,3.1),[2014-2017])
+    content((-7,-8.2), text(14pt, [@bonham2017extensive]))
+    content((0, 0),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/cheese_hgt/cheese-fig1.jpg", width:  550pt)
+      )]
+    )
+    (pause,)
+    content((-4,-4),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/cheese_hgt/elife-fig1a.png", width: 200pt)
+      )]
+    )
+    (pause,)
+    content((0.4,-4),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/cheese_hgt/elife-fig1ab.png", width: 452pt)
+      )]
+    )
+    (pause,)
+    content((4,-5),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/cheese_hgt/elife-fig3a.jpg", width: 450pt)
+      )]
+    )
+  }
+  )
+)]
+
+== Expanding computing - Human microbiome epidemiology
+
+#slide[
+  #set text(18pt)
+    #figure(
+    cetz-canvas({
+    import cetz.draw: *
+    content((0,1.2),[2014-2017])
+    content((0, 0),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/cheese_hgt/cheese-fig1.jpg", width:  150pt)
+      )]
+    )
+    content((0,-2.3),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/cheese_hgt/elife-fig1ab.png", width: 152pt)
+      )]
+    )
+    
+    content((0,-5),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/cheese_hgt/elife-fig3a.jpg", width: 150pt)
+      )]
+    )
+    content((0,-6.5), text(14pt, [@bonham2017extensive]))
+
+    content((14,3.4),[2017-2019])
+    content((6,-9.2), text(14pt, [@thompsonAlterationsGutMicrobiome2023]))
+    content((14,0),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/career_experimental/arthritis-fig2.png", width: 600pt)
+      )]
+    )
+    (pause,)
+    content((15,-3.5),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/career_experimental/arthritis-fig3.png", width: 550pt)
+      )]
+    )
+
+  }
+))]
 
 = Salt tolerance in _Bifidobacterium longum_ subsp. _infantis_
 

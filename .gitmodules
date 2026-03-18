@@ -7,3 +7,9 @@
 [submodule "assets/binfantis"]
 	path = assets/binfantis
 	url = git@github.com:BonhamLab/assets_binfantis.git
+[submodule "assets/cheese_hgt"]
+	path = assets/cheese_hgt
+	url = git@github.com:BonhamLab/assets_cheese_hgt.git
+[submodule "assets/career_experimental"]
+	path = assets/career_experimental
+	url = git@github.com:BonhamLab/assets_career_experimental.git
