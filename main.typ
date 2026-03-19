@@ -98,6 +98,34 @@
   }))
 ]
 
+== Time as a "curriculum fellow" at HMS
+
+#slide[
+  #set text(18pt)
+    #figure(
+    cetz-canvas({
+    import cetz.draw: *
+    content((0,3.5),[2014-2016])
+    content((0, 0),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/teaching-masters.png", width:  400pt)
+      )]
+    )
+    (pause,)
+    content((12,5.5),[2016-2017])
+    content((13,2),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/teaching-hmx1.png", width: 300pt)
+      )]
+    )
+    content((13,-4),
+      [#box(stroke:1pt, inset:3pt, fill:white,
+        image("assets/teaching-hmx2.png", width: 300pt)
+      )]
+    )
+  }
+  )
+)]
 
 == Transition to computing - Cheese HGT
 
@@ -107,13 +135,14 @@
     cetz-canvas({
     import cetz.draw: *
     content((0,3.1),[2014-2017])
-    content((-7,-8.2), text(14pt, [@bonham2017extensive]))
+    content((-8,2.5), text(14pt, [@wolfeCheeseRindCommunities2014]))
     content((0, 0),
       [#box(stroke:1pt, inset:3pt, fill:white,
         image("assets/cheese_hgt/cheese-fig1.jpg", width:  550pt)
       )]
     )
     (pause,)
+    content((-7,-8.2), text(14pt, [@bonham2017extensive]))
     content((-4,-4),
       [#box(stroke:1pt, inset:3pt, fill:white,
         image("assets/cheese_hgt/elife-fig1a.png", width: 200pt)
@@ -134,6 +163,9 @@
   }
   )
 )]
+
+
+
 
 == Expanding computing - Human microbiome epidemiology
 
@@ -300,21 +332,21 @@
 #text(14pt)[@bonhamCodevelopmentGutMicrobial2025]
 ]
 
-== More microbial genes are associated with _future_ VEP development
-
 #slide[
-    #figure(
-        cetz-canvas({
-        import cetz.draw: *
-        content((-9.5,-8), text(14pt)[@bonhamCodevelopmentGutMicrobial2025], name:"cite")
+  #figure(
+    cetz-canvas({
+      import cetz.draw: *
+      content((-9.5,-8), text(14pt)[@bonhamCodevelopmentGutMicrobial2025], name:"cite")
 
-        content((0, 0), [#image("assets/child_brain_microbiome/concurrent_volcano.png", width: 673pt)], name:"fig")
-        content((0, -6), [#image("assets/child_brain_microbiome/geneset-keys.png", width: 250pt)], name:"fig")
+      content((0, 0), [#image("assets/child_brain_microbiome/concurrent_volcano.png", width: 673pt)], name:"fig")
+      content((0, -6), [#image("assets/child_brain_microbiome/geneset-keys.png", width: 250pt)], name:"fig")
 
-            })
-    )
+    })
+  )
 
 ]
+
+== More microbial genes are associated with _future_ VEP development
 
 #slide[
 
