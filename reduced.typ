@@ -15,7 +15,7 @@
   footer: self => self.info.institution,
   config-info(
     title: [
-      _B. infantis_ and salt responses #h(4.8em)
+      Studying the infant microbiome #h(4.2em)
       #box(baseline:0.5em, [
         #image("assets/general/lab-logo-banner.png", width:  8em)
       ])
@@ -23,7 +23,7 @@
     subtitle: [Plus other stuff],
     author: [Kevin Bonham, PhD],
     date: datetime(year: 2026, month: 10, day: 2),
-    institution: [2026-10 MMB Faculty Research],
+    institution: [MMB Faculty Research],
   ),
   config-colors(
     primary: rgb("#31825F"),
@@ -37,12 +37,6 @@
 
 #title-slide()
 
-== Outline
-
-#slide[
-  #set text(24pt)
-  
-]
 
 = Background
 
@@ -96,6 +90,9 @@
     }))
 ]
 
+#focus-slide[
+ 
+]
 
 == The Khula study of child development
 
@@ -231,11 +228,23 @@ Can we model the development _of the microbiome_?
  ][
 - Gaussian Process models for better fit to time-varying data
   - "Microbiome age Z-score" analagous to growth curves #pause
+- "Foundation models" for the infant microbiome
+]
 
-*Other projects*
-- stress responses in human milk metabolizing microbe
-  _Bifidobacterium infantis_
-- Software for easier analysis of Spatial 'Omics
+== Vision for the Bonham Lab
+
+#slide[
+   #figure(
+    cetz-canvas({
+    import cetz.draw: *
+    content((0, 0), [#image("assets/general/lab-plans.svg", width: 450pt)])
+    (pause,)
+    group({  
+    set-origin((-2, -2))   // rotate around the ellipse center  
+    rotate(-30deg)  
+    circle((-2,3), radius: (6,4), stroke: red + 2pt)  
+    })
+    }))
 ]
 
 #thank-you-slide(slidesurl: "https://github.com/BonhamLab/presentation_lab_meeting")
