@@ -78,6 +78,28 @@
   )
 ]
 
+== _Bifidobacterium longum_ subsp. _infantis_
+
+#slide[
+  #figure(
+    cetz-canvas({
+      import cetz.draw: *
+      content((0,0), [#image("assets/binfantis/bifido_electron.jpg", width: 283pt)])
+      content((3, -3.5), text(14pt)[source: wikipedia])
+      content((0, -6.5), box(width:350pt)[
+        #set align(left+horizon)
+        - Gram positive, class Actinomycetes
+        - Microaerotolerant, intestinal commensal
+        - Ferments carbohydrates into lactic acid and formic acid
+      ])
+      (pause,)
+      content((13,-2), [#image("assets/binfantis/bl_nexus_tree.png", width: 267pt)])
+      content((14, -8.5), text(14pt)[@ennisDiscoveryFunctionalityGlobal2026])
+
+    }),
+  )
+]
+
 == _B. infantis_ is a specialized HMO metabolizer
 
 #slide[
@@ -97,7 +119,7 @@
   #figure(
     cetz-canvas({
       import cetz.draw: *
-      content((0, 0), image("assets/binfantis/shao_bl_tree.png", width: 440pt))
+      content((0, 0), image("assets/binfantis/shao_bl_tree.png", width: 519pt))
       content((10, -6), text(14pt)[@shaoGenomicAtlasBifidobacterium2026])
     }),
   )
@@ -153,6 +175,12 @@
       content((14, -3.6), image("assets/general/trisha_headshot.jpg", width: 80pt))
       content((0, 0), image("assets/binfantis/basic_salt.png", width: 650pt))
       rect((-2, -6), (7.4, 6), fill: white, stroke: none)
+      (pause,)
+      content((-4.5,3.5), text(rgb("#0072b2"))[0% NaCl])
+      content((-4.5,-0.3), text(rgb("#e69f00"))[0.6% NaCl])
+      content((-4.5,-2.5), text(rgb("#009e73"))[1.2% NaCl])
+      content((5, 0), image("assets/binfantis/fen_ecoli_salt.png", width: 350pt))
+      content((10, -5.5), text(14pt)[@liEffectsNaClConcentrations2021])
     }),
   )
 ]
@@ -213,7 +241,6 @@
       content((14, -3.6), image("assets/general/trisha_headshot.jpg", width: 80pt))
       content((0, 0), image("assets/binfantis/basic_salt.png", width: 650pt))
       rect((-2, -6), (7.4, 6), fill: white, stroke: none)
-      (pause,)
       content((0, 0), image("assets/binfantis/basic_salt.png", width: 650pt))
     }),
   )
@@ -308,7 +335,6 @@
 3. Create multiple-sequence alignment
 4. Calculate dN/dS
 ][
-  #pause
 #figure(
     cetz-canvas({
       import cetz.draw: *
@@ -327,6 +353,7 @@
     cetz-canvas({
       import cetz.draw: *
       content((0, 0), image("assets/binfantis/ko_schematic.png", width: 650pt))
+      content((9, -5.5), text(14pt)[@sakaguchiTargetedGeneKnockout2012])
     }),
   )
 ]
@@ -336,8 +363,13 @@
     cetz-canvas({
       import cetz.draw: *
       content((0, 0), image("assets/binfantis/plasmid_schematic.png", width: 426pt))
+      content((10, -5.5), text(14pt)[@altaibBifidobacteriumEscherichiaColiShuttle2022])
     }),
   )
+]
+
+#focus-slide[
+We have not been able to see (consistent) lag phase at Tufts
 ]
 
 == _B. infantis_ growth troubleshooting
@@ -369,6 +401,16 @@ Irem iterated on a bunch of stuff
 ]
 
 #slide[
+  #figure(
+    cetz-canvas({
+      import cetz.draw: *
+      content((0, 0), image("assets/binfantis/infantis_strains_salt.svg", width: 650pt))
+    }),
+  )
+]
+
+
+#slide[
   *Other ideas*
 
   - Gas mixture: undergrads worked in hungate tubes w/100% N#sub[2],
@@ -385,8 +427,6 @@ Irem iterated on a bunch of stuff
   )
 ]
 
-
-#contact_info_slide
 
 #thank-you-slide(slidesurl: "https://github.com/BonhamLab/presentation_lab_meeting")
 
