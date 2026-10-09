@@ -84,18 +84,17 @@
   #figure(
     cetz-canvas({
       import cetz.draw: *
-      content((0,0), [#image("assets/binfantis/bifido_electron.jpg", width: 283pt)])
+      content((0, 0), [#image("assets/binfantis/bifido_electron.jpg", width: 283pt)])
       content((3, -3.5), text(14pt)[source: wikipedia])
-      content((0, -6.5), box(width:350pt)[
-        #set align(left+horizon)
+      content((0, -6.5), box(width: 350pt)[
+        #set align(left + horizon)
         - Gram positive, class Actinomycetes
         - Microaerotolerant, intestinal commensal
         - Ferments carbohydrates into lactic acid and formic acid
       ])
       (pause,)
-      content((13,-2), [#image("assets/binfantis/bl_nexus_tree.png", width: 267pt)])
+      content((13, -2), [#image("assets/binfantis/bl_nexus_tree.png", width: 267pt)])
       content((14, -8.5), text(14pt)[@ennisDiscoveryFunctionalityGlobal2026])
-
     }),
   )
 ]
@@ -176,9 +175,9 @@
       content((0, 0), image("assets/binfantis/basic_salt.png", width: 650pt))
       rect((-2, -6), (7.4, 6), fill: white, stroke: none)
       (pause,)
-      content((-4.5,3.5), text(rgb("#0072b2"))[0% NaCl])
-      content((-4.5,-0.3), text(rgb("#e69f00"))[0.6% NaCl])
-      content((-4.5,-2.5), text(rgb("#009e73"))[1.2% NaCl])
+      content((-4.5, 3.5), text(rgb("#0072b2"))[0% NaCl])
+      content((-4.5, -0.3), text(rgb("#e69f00"))[0.6% NaCl])
+      content((-4.5, -2.5), text(rgb("#009e73"))[1.2% NaCl])
       content((5, 0), image("assets/binfantis/fen_ecoli_salt.png", width: 350pt))
       content((10, -5.5), text(14pt)[@liEffectsNaClConcentrations2021])
     }),
@@ -292,8 +291,8 @@
 == Is there variation in _B. infantis_ salt-tolerance genes?
 
 #slide[
-#set text(11pt)
-#set cite(style: "ieee")
+  #set text(11pt)
+  #set cite(style: "ieee")
   #figure(
     table(
       columns: (1fr, 2fr, 4fr),
@@ -330,12 +329,12 @@
 == NhaA is under stabilizing selection
 
 #slide[
-1. Use reference strain to get DNA sequence of annotated gene
-2. BLAST infantis-only database to identify sequences in other strains
-3. Create multiple-sequence alignment
-4. Calculate dN/dS
+  1. Use reference strain to get DNA sequence of annotated gene
+  2. BLAST infantis-only database to identify sequences in other strains
+  3. Create multiple-sequence alignment
+  4. Calculate dN/dS
 ][
-#figure(
+  #figure(
     cetz-canvas({
       import cetz.draw: *
       content((0, 0), image("assets/binfantis/nhaA_dnds.png", width: 350pt))
@@ -369,22 +368,22 @@
 ]
 
 #focus-slide[
-We have not been able to see (consistent) lag phase at Tufts
+  We have not been able to see (consistent) lag phase at Tufts
 ]
 
 == _B. infantis_ growth troubleshooting
 
 
 #slide[
-Irem iterated on a bunch of stuff
+  Irem iterated on a bunch of stuff
 
-- Initial inoculum amount (based on OD600)
-  - Inoculated from exponential phase or stationary
-- Different plate readers (cerillo / biorad)
-- Shaking, not shaking
-- 96 well or 24 well
+  - Initial inoculum amount (based on OD600)
+    - Inoculated from exponential phase or stationary
+  - Different plate readers (cerillo / biorad)
+  - Shaking, not shaking
+  - 96 well or 24 well
 ][
-#figure(
+  #figure(
     cetz-canvas({
       import cetz.draw: *
       content((0, 0), image("assets/binfantis/lots_o_curves.png", width: 350pt))
@@ -419,7 +418,7 @@ Irem iterated on a bunch of stuff
   - Activation of latent phage?
 
 ][
-#figure(
+  #figure(
     cetz-canvas({
       import cetz.draw: *
       content((0, 0), image("assets/hungate.png", width: 350pt))
